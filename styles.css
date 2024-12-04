@@ -180,8 +180,25 @@ body{
 }
 
 @media only screen and ( min-width: 600px) {
+
+    section{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100vh;
+    }
     .container{
         width: 550px;
         margin: 0 auto;
     }
+
+    body{
+        background-color:#F9FAFE;
+    }
+
+    .container{
+        background-color: white;
+        box-shadow: 0 4px 8px hsl(211, 68%, 94%);
+    }
+
 }
