@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Notifications</title>
+  <link rel="shortcut icon" href="assets/images/favicon-32x32.png" type="image/x-icon">
+  <link rel="stylesheet" href="styles.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:ital,wght@0,200..800;1,200..800&display=swap"
+    rel="stylesheet">
+</head>
+
+<body>
+  <section>
+    <div class="container">
+      <div class="header-notification">
+        <div class="group first">
+          <span class="title-notification">Notifications</span>
+          <span class="number">2</span>
+        </div>
+        <div class="group second">
+          <span onclick="markAll()" class="mark-all">Mark all a read</span>
+        </div>
+      </div>
+      <div class="cards-notification">
+        <div class="card view-card">
+          <div class="group first">
+            <img src="assets/images/avatar-mark-webber.webp" alt="">
+          </div>
+          <div class="group second">
+            <div class="group-children">
+              <p><a href="#" class="full-name">Mark Webber</a> reacted to your recent post <a href=""
+                  class="visit-post">My first
+                  tournament today!</a>
+                <a href="" class="icon-circle"></a>
+              </p>
+            </div>
+            <div class="group-children">
+              <span class="date">1m ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="card view-card">
+          <div class="group first">
+            <img src="assets/images/avatar-angela-gray.webp" alt="">
+          </div>
+          <div class="group second">
+            <div class="group-children">
+              <p><a href="#" class="full-name">Angela Gray</a>followed you
+              <a class="icon-circle"></a>
+              </p>
+            </div>
+            <div class="group-children">
+              <span class="date">5m ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="card view-card">
+          <div class="group first">
+            <img src="assets/images/avatar-jacob-thompson.webp" alt="">
+          </div>
+          <div class="group second">
+            <div class="group-children">
+              <p><a href="#" class="full-name">Jacob Thompson</a> has joined your group<a href=""
+                  class="join-group">Chess Club</a>
+              <a class="icon-circle"></a>
+              </p>
+            </div>
+            <div class="group-children">
+              <span class="date">1 day ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="group first">
+            <img src="assets/images/avatar-rizky-hasanuddin.webp" alt="">
+          </div>
+          <div class="group second">
+            <div class="group-children">
+              <p><a href="#" class="full-name">Jacob Thompson</a> sent you a private message</p>
+            </div>
+            <div class="group-children">
+              <span class="date">5 days ago</span>
+            </div>
+            <div class="group-message">
+              <p class="message">Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.</p>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="group first">
+            <img src="assets/images/avatar-kimberly-smith.webp" alt="">
+          </div>
+          <div class="group second">
+            <div class="group-children">
+              <p><a href="#" class="full-name">Kimberly Smith</a> commented on your picture</p>
+            </div>
+            <div class="group-children">
+              <span class="date">1 week ago</span>
+            </div>
+          </div>
+          <div class="group third">
+            <img src="assets/images/image-chess.webp" alt="">
+          </div>
+        </div>
+        <div class="card">
+          <div class="group first">
+            <img src="assets/images/avatar-nathan-peterson.webp" alt="">
+          </div>
+          <div class="group second">
+            <div class="group-children">
+              <p><a href="#" class="full-name">Nathan Peterson</a> reacted to your recent post <a href=""
+                  class="visit-post">5 end-game
+                  strategies to increaste your win rate</a>
+              <div class="icon-circle"></div>
+              </p>
+            </div>
+            <div class="group-children">
+              <span class="date">2 weeks ago</span>
+            </div>
+          </div>
+        </div>
+        <div class="card">
+          <div class="group first">
+            <img src="assets/images/avatar-anna-kim.webp" alt="">
+          </div>
+          <div class="group second">
+            <div class="group-children">
+              <p><a href="#" class="full-name">Anna Kim</a>left the group<a href="" class="join-group">Chess Club</a>
+              </p>
+            </div>
+            <div class="group-children">
+              <span class="date">2 week ago</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+  <script src="script.js"></script>
+</body>
+
+</html>
